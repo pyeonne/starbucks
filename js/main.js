@@ -53,3 +53,15 @@ window.addEventListener(
     }, 300),
 );
 // _.throttle(함수, 시간)
+
+/**
+ * 순서대로 나타나는 기능
+ */
+// 나타날 요소들(.fade-in) 찾기.
+const fadeEls = document.querySelectorAll('.visual .fade-in');
+fadeEls.forEach((fadeEl, index) => {
+    gsap.to(fadeEl, 1, {
+        delay: (index + 1) * 0.7, // 0.7, 1.4, 2.1, 2.7
+        opacity: 1,
+    });
+});
