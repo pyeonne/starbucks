@@ -8,7 +8,6 @@ body {
     font-weight: 400;
     line-height: 1.4; /* 16px의 1.4배. 최적의 줄높이는 폰트에 따라 상이 */
     font-family: 'Nanum Gothic', sans-serif;
-    height: 3000px;
 }
 img {
     /* img 태그는 inline 요소로 baseline으로 인해 하단에 불필요한 여백을 가진다.*/
@@ -566,8 +565,52 @@ header .badges .badge {
     top: 350px;
     left: 150px;
 }
-.youtube .floating3 {
+
+/* SEASON PRODUCT */
+.season-product {
+    background-image: url('../images/season_product_bg.jpg');
+}
+.season-product .inner {
+    height: 400px;
+}
+.season-product .floating3 {
     position: absolute;
-    bottom: -200px;
+    top: -200px;
+    right: 0;
+}
+.season-product .text-group {
+    position: absolute;
+    top: 110px;
+    right: 100px;
+}
+.season-product .text-group .title {
+    margin-bottom: 10px;
+}
+.season-product .text-group .description {
+    margin-bottom: 15px;
+}
+.season-product .text-group .more {
+}
+
+/* RESERVE COFFEE */
+.reserve-coffee {
+    background-image: url('../images/reserve_bg.jpg');
+}
+.reserve-coffee .inner {
+    height: 400px;
+}
+.reserve-coffee .reserve-logo {
+    position: absolute;
+    top: 110px;
+    left: 0;
+}
+.reserve-coffee .text-group {
+    position: absolute;
+    top: 124px;
+    left: 208px;
+}
+.reserve-coffee .product {
+    position: absolute;
+    top: 0;
     right: 0;
 }
