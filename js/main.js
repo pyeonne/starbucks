@@ -95,6 +95,16 @@ new Swiper('.promotion .swiper', {
         nextEl: '.promotion .swiper-next', // 다음 버튼 선택자
     },
 });
+new Swiper('.awards .swiper', {
+    autoplay: true,
+    loop: true,
+    spaceBetween: 30,
+    slidesPerView: 5,
+    navigation: {
+        prevEl: '.awards .swiper-prev',
+        nextEl: '.awards .swiper-next',
+    },
+});
 
 /**
  * Promotion 슬라이드 토글 기능
