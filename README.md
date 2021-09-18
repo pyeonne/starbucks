@@ -1,2 +1,3 @@
-# starbucks
- ☕ Starbucks landing page
+# Starbucks
+
+☕ Starbucks landing page
